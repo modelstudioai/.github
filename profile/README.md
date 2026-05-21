@@ -1,7 +1,5 @@
 # Model Studio AI
 
-> 企业级 AI Workflow 开发平台，让 Agent 能力像搭积木一样组合
-
 <p align="center">
   <a href="https://bailian.console.aliyun.com"><img src="https://img.shields.io/badge/Platform-%E9%98%BF%E9%87%8C%E4%BA%91%E7%99%BE%E7%82%BC-blue" alt="阿里云百炼"></a>
   <a href="https://www.npmjs.com/package/bailian-cli"><img src="https://img.shields.io/npm/v/bailian-cli.svg" alt="npm version"></a>
