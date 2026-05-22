@@ -203,8 +203,13 @@ bl workflow run "分析财报并生成投资者摘要"
 
 ## 加入社区
 
-欢迎提交issue交流！
-社区、博客、交流群建设中
+<p align="center">
+  欢迎加入钉钉群交流
+</p>
+<p align="center">
+<img width="200" height="200" alt="qr_with_avatar" src="https://github.com/user-attachments/assets/57a43cb4-c9cb-4591-8cec-959cd6e2cd09" />
+</p>
+
 
 ---
 
