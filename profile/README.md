@@ -77,7 +77,6 @@ Our projects integrate with the broader AI development ecosystem:
 We welcome contributions from developers worldwide.
 - **Report issues** — Open an issue in the relevant repository
 
-
 ## 中文
 
 ### 关于
@@ -176,5 +175,5 @@ bl auth login --api-key YOUR_API_KEY
 
 
 <p align="center">
-  <sub>Built with ❤️ by the Model Studio AI team, powered by <a href="https://bailian.console.aliyun.com/cli?source_channel=cli_github&">阿里云百炼</a></sub>
+  <sub> Built with ❤️ by the Model Studio </a></sub>
 </p>
