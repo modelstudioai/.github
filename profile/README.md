@@ -1,4 +1,3 @@
-
 <p align="center">
   <strong>Model Studio AI</strong>
 </p>
@@ -72,11 +71,6 @@ Our projects integrate with the broader AI development ecosystem:
   <a href="https://github.com/open-webui/open-webui">Open WebUI</a>
 </p>
 
-### Contributing
-
-We welcome contributions from developers worldwide.
-- **Report issues** — Open an issue in the relevant repository
-
 ## 中文
 
 ### 关于
@@ -147,16 +141,6 @@ bl auth login --api-key YOUR_API_KEY
   <a href="https://github.com/browser-use/browser-use">Browser Use</a> · 
   <a href="https://github.com/open-webui/open-webui">Open WebUI</a>
 </p>
-
-### 为什么选择阿里云百炼？
-
-| 特性 | 说明 |
-|:-----|:-----|
-| **自然语言驱动** | 不需要记命令，跟 AI 助手说需求即可 |
-| **自动注册 Skill** | 安装后自动集成 Claude Code / Qwen Code，无需手动配置 |
-| **MCP 兼容** | 符合 Model Context Protocol 标准，可接入任意客户端 |
-| **Skills 市场** | 26+ 经验证的可复用技能，持续扩展中 |
-| **企业级保障** | 通义大模型 + 阿里云百炼平台，安全稳定 |
 
 ### 社区
 
