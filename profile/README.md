@@ -21,13 +21,6 @@
 
 Model Studio AI is the open-source home of [ModelStudio](https://bailian.console.aliyun.com/cli?source_channel=cli_github&). We publish tools, verified skills, and reference implementations that help developers build with large models — from image and video generation to document understanding and multi-model orchestration.
 
-### Repositories
-
-| Repository | Description |
-|:-----------|:------------|
-| **[skills](https://github.com/modelstudioai/skills)** | 26 curated & verified skills across 6 categories. Works with Claude Code, Qwen Code, and any MCP-compatible client. |
-| **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | Prompts, API patterns, and creative workflows for HappyHorse video generation models. |
-| **[LiveTranslate-Demo](https://github.com/modelstudioai/LiveTranslate-Demo)** | Real-time multilingual translation demo powered by ModelStudio streaming APIs. |
 
 ### Quick Start
 
@@ -77,13 +70,6 @@ Our projects integrate with the broader AI development ecosystem:
 
 Model Studio AI 是[阿里云百炼](https://bailian.console.aliyun.com/cli?source_channel=cli_github&)的开源技术阵地。我们发布工具、经验证的 Skills 和参考实现，帮助开发者基于大模型构建应用——从图像和视频生成，到文档理解和多模型调度。
 
-### 核心项目
-
-| 仓库 | 简介 |
-|:-----|:-----|
-| **[skills](https://github.com/modelstudioai/skills)** | 26 个经验证的 Skills，覆盖 6 大场景。支持 Claude Code、Qwen Code 和任意 MCP 客户端。 |
-| **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | 精选 HappyHorse 视频生成模型的 prompt、API 调用模式与创意工作流。 |
-| **[LiveTranslate-Demo](https://github.com/modelstudioai/LiveTranslate-Demo)** | 基于阿里云百炼流式 API 的实时多语言翻译 Demo。 |
 
 ### 快速开始
 
@@ -103,31 +89,6 @@ bl auth login --api-key YOUR_API_KEY
 
 > 把这张图做成 3 秒的产品展示视频
 
-### 核心能力
-
-| 能力 | 自然语言调用示例 | 适用场景 |
-|:-----|:----------------|:---------|
-| 图像生成 | "生成一张电商主图，白色背景" | 电商、营销、社交媒体 |
-| 图像编辑 | "根据这个 IP 形象设计产品方案图" | 产品设计、IP 延展 |
-| 视频生成 | "把这张图做成 3 秒展示视频" | 短视频、广告 |
-| 文档解析 | "提取合同里的付款条款" | 合同审查、知识归档 |
-| 代码生成 | "写个 Python 脚本批量处理 Excel" | 自动化、数据处理 |
-| 数据分析 | "分析这份销售数据的增长原因" | 经营分析、趋势洞察 |
-
-### 行业 Workflow 示例
-
-**电商内容生产**
-```
-产品图片 → [图像生成/编辑] → 多场景商品图
-         → [文案生成]       → 淘宝标题 / 小红书种草 / 直播话术
-         → [视频生成]       → 15 秒产品展示视频
-         → [数据洞察]       → 竞品定价 + 卖点差异化
-```
-
-**企业文档处理**
-```
-合同/报告 → [文档解析] → 结构化提取 → [风险标记] → [摘要生成] → 管理层速览
-```
 
 ### 生态合作
 
