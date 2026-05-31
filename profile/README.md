@@ -1,11 +1,11 @@
 
 <p align="center">
-  <strong>The open-source home of <a href="https://bailian.console.aliyun.com">Alibaba Cloud Model Studio</a></strong><br>
+  <strong>The open-source home of <a href="https://bailian.console.aliyun.com/?source_channel=cli_github&">Model Studio</a></strong><br>
   Tools, skills, and reference implementations for building with large models.
 </p>
 
 <p align="center">
-  <a href="https://bailian.console.aliyun.com/cli"><img src="https://img.shields.io/badge/ModelStudio-blue?logo=alibabacloud" alt="ModelStudio"></a>
+  <a href="https://bailian.console.aliyun.com/cli?source_channel=cli_github&"><img src="https://img.shields.io/badge/ModelStudio-blue?logo=alibabacloud" alt="ModelStudio"></a>
   <a href="https://www.npmjs.com/package/bailian-cli"><img src="https://img.shields.io/npm/v/bailian-cli.svg?logo=npm" alt="npm"></a>
   <a href="https://github.com/modelstudioai/skills"><img src="https://img.shields.io/github/stars/modelstudioai/skills?style=social" alt="Stars"></a>
   <a href="https://github.com/modelstudioai/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg" alt="License"></a>
@@ -70,7 +70,7 @@ The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**,
 
 ### 关于
 
-Model Studio AI 是[阿里云百炼](https://bailian.console.aliyun.com/cli?source_channel=cli_github&)的开源技术阵地。我们发布工具、经验证的 Skills 和参考实现，帮助开发者基于大模型构建应用——从图像和视频生成，到文档理解和多模型调度。
+Model Studio AI 是[阿里云百炼](https://bailian.console.aliyun.com/cli?source_channel=cli_github&)的开放乐园。我们发布工具、经验证的 Skills 和参考实现，帮助开发者基于大模型构建应用——从图像和视频生成，到文档理解和多模型调度。
 
 
 ### 快速开始
