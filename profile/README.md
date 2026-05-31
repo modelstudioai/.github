@@ -1,10 +1,3 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.alicdn.com/imgextra/i1/O1CN01CEGjGx1GZ3E3bJMHS_!!6000000000635-2-tps-2000-400.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://img.alicdn.com/imgextra/i1/O1CN01CEGjGx1GZ3E3bJMHS_!!6000000000635-2-tps-2000-400.png">
-    <img alt="Model Studio AI" src="https://img.alicdn.com/imgextra/i1/O1CN01CEGjGx1GZ3E3bJMHS_!!6000000000635-2-tps-2000-400.png" width="600">
-  </picture>
-</p>
 
 <p align="center">
   <strong>The open-source home of <a href="https://bailian.console.aliyun.com">Alibaba Cloud Model Studio</a></strong><br>
@@ -29,7 +22,14 @@
 
 ---
 
-## Quick Start
+## English
+
+### About
+
+Model Studio AI is the open-source home of [ModelStudio](https://bailian.console.aliyun.com/cli?source_channel=cli_github&). We publish tools, verified skills, and reference implementations that help developers build with large models — from image and video generation to document understanding and multi-model orchestration.
+
+
+### Quick Start
 
 ```bash
 # Install the CLI (Node.js 18+)
@@ -66,12 +66,12 @@ The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**,
 | Code Generation | "Write a Python script to batch-process Excel" | Automation |
 | Data Analysis | "Analyze this sales data and identify growth drivers" | Business analytics |
 
-<details>
-<summary><strong>中文</strong></summary>
+## 中文
 
 ### 关于
 
-Model Studio AI 是[阿里云百炼](https://bailian.console.aliyun.com)的开源技术阵地。我们发布工具、经验证的 Skills 和参考实现，帮助开发者基于大模型构建应用。
+Model Studio AI 是[阿里云百炼](https://bailian.console.aliyun.com/cli?source_channel=cli_github&)的开源技术阵地。我们发布工具、经验证的 Skills 和参考实现，帮助开发者基于大模型构建应用——从图像和视频生成，到文档理解和多模型调度。
+
 
 ### 快速开始
 
@@ -93,18 +93,8 @@ bl auth login --api-key YOUR_API_KEY
 | **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | 精选 HappyHorse 视频生成模型的 prompt、API 调用模式与创意工作流。 |
 | **[LiveTranslate-Demo](https://github.com/modelstudioai/LiveTranslate-Demo)** | 基于阿里云百炼流式 API 的实时多语言翻译 Demo。 |
 
-### 核心能力
 
-| 能力 | 示例 | 场景 |
-|:-----|:-----|:-----|
-| 图像生成 | "生成一张电商主图，白色背景" | 电商、营销 |
-| 图像编辑 | "根据这个 IP 形象设计产品方案图" | 产品设计 |
-| 视频生成 | "把这张图做成 3 秒展示视频" | 短视频、广告 |
-| 文档解析 | "提取合同里的付款条款" | 合同审查 |
-| 代码生成 | "写个 Python 脚本批量处理 Excel" | 自动化 |
-| 数据分析 | "分析这份销售数据的增长原因" | 经营分析 |
-
-### 社区
+### 生态合作
 
 欢迎加入钉钉群交流：
 
@@ -112,9 +102,7 @@ bl auth login --api-key YOUR_API_KEY
 <img width="200" height="200" alt="钉钉群二维码" src="https://github.com/user-attachments/assets/57a43cb4-c9cb-4591-8cec-959cd6e2cd09" />
 </p>
 
-</details>
-
-## Contributing
+### 社区
 
 We welcome contributions from developers worldwide.
 - **Report issues** — Open an issue in the relevant repository
