@@ -1,6 +1,6 @@
 
 <p align="center">
-  <strong>The open-source home of <a href="https://bailian.console.aliyun.com/?source_channel=cli_github&">Model Studio</a></strong><br>
+  <strong>The open-source home of Model Studio</strong><br>
   Tools, skills, and reference implementations for building with large models.
 </p>
 
