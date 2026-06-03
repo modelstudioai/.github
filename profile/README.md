@@ -20,6 +20,8 @@
   <a href="https://github.com/open-webui/open-webui">Open WebUI</a>
 </p>
 
+<img width="2400" height="1350" alt="github org图" src="https://github.com/user-attachments/assets/f186d59d-a10e-45b9-8573-de9f2de7c73e" />
+
 ---
 
 ## English
