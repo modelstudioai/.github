@@ -37,7 +37,7 @@ Model Studio AI is the open-source home of [ModelStudio](https://bailian.console
 # Install the CLI (Node.js 18+)
 npm install -g bailian-cli
 
-# Authenticate — get your key at https://bailian.console.aliyun.com
+# Authenticate — get your key at https://bailian.console.aliyun.com/cn-beijing/?source_channel=key_github&tab=app#/api-key
 bl auth login --api-key YOUR_API_KEY
 ```
 
@@ -53,9 +53,13 @@ The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**,
 
 | Repository | Description |
 |:-----------|:------------|
-| **[skills](https://github.com/modelstudioai/skills)** | 26 curated & verified skills across 6 categories. Works with Claude Code, Qwen Code, and any MCP client. |
-| **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | Prompts, API patterns, and creative workflows for HappyHorse video generation models. |
-| **[LiveTranslate-Demo](https://github.com/modelstudioai/LiveTranslate-Demo)** | Real-time multilingual translation demo powered by ModelStudio streaming APIs. |
+| **[cli](https://github.com/modelstudioai/cli)** | The official Model Studio CLI (`bl`) for AI Agent frameworks. Auto-registers as a skill in Claude Code, Qwen Code, Cursor, Cline, Windsurf, and any MCP-compatible client. |
+| **[skills](https://github.com/modelstudioai/skills)** | 32+ verified skills (6 first-party + 26 community-curated) across 6 categories. Works with Claude Code, Qwen Code, and any MCP client. |
+| **[openwork](https://github.com/modelstudioai/openwork)** | Local-first desktop Agent for end-to-end AI workflows — open-source companion app to Model Studio. |
+| **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | Prompts, storyboards, and verified creative workflows for the HappyHorse 1.0 / 1.1 video generation models. |
+| **[livetranslatedemo](https://github.com/modelstudioai/livetranslatedemo)** | Real-time multilingual translation demo powered by ModelStudio streaming APIs. |
+
+> See all repositories → [github.com/orgs/modelstudioai/repositories](https://github.com/orgs/modelstudioai/repositories)
 
 ## Capabilities
 
@@ -72,7 +76,7 @@ The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**,
 
 ### 关于
 
-Model Studio AI 是[阿里云百炼](https://bailian.console.aliyun.com/cli?source_channel=cli_github&)的开放乐园。我们发布工具、经验证的 Skills 和参考实现，帮助开发者基于大模型构建应用——从图像和视频生成，到文档理解和多模型调度。
+Model Studio AI 是[阿里云百炼](https://bailian.console.aliyun.com/cli?source_channel=cli_github&)的开源主页。我们发布工具、经验证的 Skills 和参考实现，帮助开发者基于大模型构建应用——从图像和视频生成，到文档理解和多模型调度。
 
 
 ### 快速开始
@@ -81,7 +85,7 @@ Model Studio AI 是[阿里云百炼](https://bailian.console.aliyun.com/cli?sour
 # 安装阿里云百炼 CLI（需要 Node.js 18+）
 npm install -g bailian-cli
 
-# 配置 API Key（前往 https://bailian.console.aliyun.com 获取）
+# 配置 API Key（前往 https://bailian.console.aliyun.com/cn-beijing/?source_channel=key_github&tab=app#/api-key 获取）
 bl auth login --api-key YOUR_API_KEY
 ```
 
@@ -91,9 +95,13 @@ bl auth login --api-key YOUR_API_KEY
 
 | 仓库 | 简介 |
 |:-----|:-----|
-| **[skills](https://github.com/modelstudioai/skills)** | 26 个经验证的 Skills，覆盖 6 大场景。支持 Claude Code、Qwen Code 和任意 MCP 客户端。 |
-| **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | 精选 HappyHorse 视频生成模型的 prompt、API 调用模式与创意工作流。 |
-| **[LiveTranslate-Demo](https://github.com/modelstudioai/LiveTranslate-Demo)** | 基于阿里云百炼流式 API 的实时多语言翻译 Demo。 |
+| **[cli](https://github.com/modelstudioai/cli)** | 阿里云百炼官方 CLI（`bl`），为 AI Agent 框架而生。安装后自动向 Claude Code / Qwen Code / Cursor / Cline / Windsurf 等 MCP 兼容客户端注册 Skill。 |
+| **[skills](https://github.com/modelstudioai/skills)** | 32+ 经验证的 Skills（6 个一方 + 26 个社区精选），覆盖 6 大场景。支持 Claude Code、Qwen Code 和任意 MCP 客户端。 |
+| **[openwork](https://github.com/modelstudioai/openwork)** | 本地优先的桌面 Agent，端到端跑通 AI 工作流的开源桌面应用。 |
+| **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | 精选 HappyHorse 1.0 / 1.1 视频生成模型的 prompt、故事板与创意工作流。 |
+| **[livetranslatedemo](https://github.com/modelstudioai/livetranslatedemo)** | 基于阿里云百炼流式 API 的实时多语言翻译 Demo。 |
+
+> 查看全部仓库 → [github.com/orgs/modelstudioai/repositories](https://github.com/orgs/modelstudioai/repositories)
 
 
 ### 生态合作
@@ -113,5 +121,5 @@ We welcome contributions from developers worldwide.
 ---
 
 <p align="center">
-  <sub>Built with ❤️ by the <a href="https://bailian.console.aliyun.com">Model Studio</a> team</sub>
+  <sub>Built with ❤️ by the <a href="https://bailian.console.aliyun.com/cli?source_channel=cli_github&">Model Studio</a> team</sub>
 </p>
