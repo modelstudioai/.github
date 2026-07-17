@@ -54,6 +54,7 @@ The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**,
 | Repository | Description |
 |:-----------|:------------|
 | **[cli](https://github.com/modelstudioai/cli)** | The official Model Studio CLI (`bl`) for AI Agent frameworks. Auto-registers as a skill in Claude Code, Qwen Code, Cursor, Cline, Windsurf, and any MCP-compatible client. |
+| **[OpenAgentPack](https://github.com/modelstudioai/OpenAgentPack)** | The open-source IaC control plane for managed AI agents. Manage, review, and migrate agent assets with Git and YAML; preview changes through `validate → plan → apply`, and target multiple managed-agent platforms from one core declaration to reduce platform lock-in. |
 | **[skills](https://github.com/modelstudioai/skills)** | 32+ verified skills (6 first-party + 26 community-curated) across 6 categories. Works with Claude Code, Qwen Code, and any MCP client. |
 | **[openwork](https://github.com/modelstudioai/openwork)** | Local-first desktop Agent for end-to-end AI workflows — open-source companion app to Model Studio. |
 | **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | Prompts, storyboards, and verified creative workflows for the HappyHorse 1.0 / 1.1 video generation models. |
@@ -96,6 +97,7 @@ bl auth login --api-key YOUR_API_KEY
 | 仓库 | 简介 |
 |:-----|:-----|
 | **[cli](https://github.com/modelstudioai/cli)** | 阿里云百炼官方 CLI（`bl`），为 AI Agent 框架而生。安装后自动向 Claude Code / Qwen Code / Cursor / Cline / Windsurf 等 MCP 兼容客户端注册 Skill。 |
+| **[OpenAgentPack](https://github.com/modelstudioai/OpenAgentPack)** | 面向托管 AI Agent 的开源 IaC 控制平面。用 Git 和 YAML 管理、审查并迁移 Agent 资产，通过 `validate → plan → apply` 预览和执行变更，以一份核心声明对接多个托管 Agent 平台，降低平台绑定。 |
 | **[skills](https://github.com/modelstudioai/skills)** | 32+ 经验证的 Skills（6 个一方 + 26 个社区精选），覆盖 6 大场景。支持 Claude Code、Qwen Code 和任意 MCP 客户端。 |
 | **[openwork](https://github.com/modelstudioai/openwork)** | 本地优先的桌面 Agent，端到端跑通 AI 工作流的开源桌面应用。 |
 | **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | 精选 HappyHorse 1.0 / 1.1 视频生成模型的 prompt、故事板与创意工作流。 |
