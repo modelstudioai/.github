@@ -15,7 +15,9 @@
   <a href="https://modelcontextprotocol.io">MCP</a> ·
   <a href="https://github.com/anthropics/claude-code">Claude Code</a> ·
   <a href="https://github.com/QwenLM/qwen-code">Qwen Code</a> ·
-  <a href="https://github.com/mannaandpoem/OpenManus">OpenManus</a> ·
+  <a href="https://www.cursor.com">Cursor</a> ·
+  <a href="https://github.com/cline/cline">Cline</a> ·
+  <a href="https://windsurf.com">Windsurf</a> ·
   <a href="https://github.com/browser-use/browser-use">Browser Use</a> ·
   <a href="https://github.com/open-webui/open-webui">Open WebUI</a>
 </p>
@@ -55,12 +57,18 @@ The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**,
 |:-----------|:------------|
 | **[cli](https://github.com/modelstudioai/cli)** | The official Model Studio CLI (`bl`) for AI Agent frameworks. Auto-registers as a skill in Claude Code, Qwen Code, Cursor, Cline, Windsurf, and any MCP-compatible client. |
 | **[OpenAgentPack](https://github.com/modelstudioai/OpenAgentPack)** | The open-source IaC control plane for managed AI agents. Manage, review, and migrate agent assets with Git and YAML; preview changes through `validate → plan → apply`, and target multiple managed-agent platforms from one core declaration to reduce platform lock-in. |
-| **[skills](https://github.com/modelstudioai/skills)** | 32+ verified skills (6 first-party + 26 community-curated) across 6 categories. Works with Claude Code, Qwen Code, and any MCP client. |
+| **[skills](https://github.com/modelstudioai/skills)** | The official Agent Skills collection — 26 curated community skills across 6 scenarios (skill management, code, design, docs, video, testing), plus first-party skills bundled from [`modelstudioai/cli`](https://github.com/modelstudioai/cli) and this repo. Works with Claude Code, Qwen Code, and any MCP client. |
 | **[openwork](https://github.com/modelstudioai/openwork)** | Local-first desktop Agent for end-to-end AI workflows — open-source companion app to Model Studio. |
 | **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | Prompts, storyboards, and verified creative workflows for the HappyHorse 1.0 / 1.1 video generation models. |
 | **[livetranslatedemo](https://github.com/modelstudioai/livetranslatedemo)** | Real-time multilingual translation demo powered by ModelStudio streaming APIs. |
+| **[modelstudioai.github.io](https://github.com/modelstudioai/modelstudioai.github.io)** | Source of the official site [modelstudioai.github.io](https://modelstudioai.github.io) — community Showcase, guides, playbook, FAQ, and video tutorials. |
 
 > See all repositories → [github.com/orgs/modelstudioai/repositories](https://github.com/orgs/modelstudioai/repositories)
+
+## Docs & Community
+
+- **Docs / Showcase / Playbook** → [modelstudioai.github.io](https://modelstudioai.github.io) — guides, community case Showcase, capability playbook, FAQ, and video tutorials.
+- **Join the Bailian Open-Source Developer Program** → [bailian.console.aliyun.com/opensource](http://bailian.console.aliyun.com/opensource) — get a certified badge, community perks, and priority collaboration opportunities.
 
 ## Capabilities
 
@@ -98,12 +106,19 @@ bl auth login --api-key YOUR_API_KEY
 |:-----|:-----|
 | **[cli](https://github.com/modelstudioai/cli)** | 阿里云百炼官方 CLI（`bl`），为 AI Agent 框架而生。安装后自动向 Claude Code / Qwen Code / Cursor / Cline / Windsurf 等 MCP 兼容客户端注册 Skill。 |
 | **[OpenAgentPack](https://github.com/modelstudioai/OpenAgentPack)** | 面向托管 AI Agent 的开源 IaC 控制平面。用 Git 和 YAML 管理、审查并迁移 Agent 资产，通过 `validate → plan → apply` 预览和执行变更，以一份核心声明对接多个托管 Agent 平台，降低平台绑定。 |
-| **[skills](https://github.com/modelstudioai/skills)** | 32+ 经验证的 Skills（6 个一方 + 26 个社区精选），覆盖 6 大场景。支持 Claude Code、Qwen Code 和任意 MCP 客户端。 |
+| **[skills](https://github.com/modelstudioai/skills)** | 官方 Agent Skills 集合——26 个社区精选 Skills 覆盖 Skill 管理、代码开发、设计创意、文档、视频、测试 6 大场景，另含由 [`modelstudioai/cli`](https://github.com/modelstudioai/cli) 和本仓库提供的一方 Skills。支持 Claude Code、Qwen Code 和任意 MCP 客户端。 |
 | **[openwork](https://github.com/modelstudioai/openwork)** | 本地优先的桌面 Agent，端到端跑通 AI 工作流的开源桌面应用。 |
 | **[awesome-happyhorse-prompts](https://github.com/modelstudioai/awesome-happyhorse-prompts)** | 精选 HappyHorse 1.0 / 1.1 视频生成模型的 prompt、故事板与创意工作流。 |
 | **[livetranslatedemo](https://github.com/modelstudioai/livetranslatedemo)** | 基于阿里云百炼流式 API 的实时多语言翻译 Demo。 |
+| **[modelstudioai.github.io](https://github.com/modelstudioai/modelstudioai.github.io)** | 官网 [modelstudioai.github.io](https://modelstudioai.github.io) 源码——社区案例 Showcase、上手教程、Playbook、FAQ 与视频教程。 |
 
 > 查看全部仓库 → [github.com/orgs/modelstudioai/repositories](https://github.com/orgs/modelstudioai/repositories)
+
+
+### 文档与社区
+
+- **文档 / 案例 Showcase / Playbook** → [modelstudioai.github.io](https://modelstudioai.github.io)——上手教程、社区案例 Showcase、能力 Playbook、FAQ 与视频教程。
+- **加入百炼开源开发者计划** → [bailian.console.aliyun.com/opensource](http://bailian.console.aliyun.com/opensource)——开通认证开发者权益、社区礼品与优先合作机会。
 
 
 ### 生态合作
