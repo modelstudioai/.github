@@ -22,7 +22,7 @@
   <a href="https://github.com/open-webui/open-webui">Open WebUI</a>
 </p>
 
-<img width="1920" height="1080" alt="githuborg配图图" src="https://github.com/user-attachments/assets/14550956-034f-41d5-985b-b44876f06d5a" />
+<img width="1920" height="1080" alt="Model Studio AI — open-source home of Aliyun Model Studio 阿里云百炼开源主页" src="https://github.com/user-attachments/assets/14550956-034f-41d5-985b-b44876f06d5a" />
 
 ---
 
@@ -35,20 +35,32 @@ Model Studio AI is the open-source home of [ModelStudio](https://bailian.console
 
 ### Quick Start
 
+Install the CLI — pick whichever fits your environment:
+
 ```bash
-# Install the CLI (Node.js 18+)
+# npm (Node.js 18.17+)
 npm install -g bailian-cli
 
-# Authenticate — get your key at https://bailian.console.aliyun.com/cn-beijing/?source_channel=key_github&tab=app#/api-key
+# macOS / Linux — no Node.js required
+curl -fsSL https://bailian.aliyun.com/cli/install.sh | bash
+
+# Windows — no Node.js required
+irm https://bailian.aliyun.com/cli/install.ps1 | iex
+```
+
+Then authenticate — get your key at [bailian.console.aliyun.com/…/api-key](https://bailian.console.aliyun.com/cn-beijing/?source_channel=key_github&tab=app#/api-key):
+
+```bash
 bl auth login --api-key YOUR_API_KEY
 ```
 
-The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**, and any MCP-compatible client. No extra config needed.
+The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**, **Cline**, **Windsurf**, and any MCP-compatible client. No extra config needed.
 
 ```
-> Generate a product showcase image with white background
-> Parse this contract and highlight payment terms
-> Create a 3-second video from this image
+> Generate a tech-style product showcase image with a clean white background
+> Turn this poster into a 5s image-to-video clip with HappyHorse 1.1
+> Parse this contract and highlight the payment and termination terms
+> Transcribe this meeting recording and translate it into English in real time
 ```
 
 ## Repositories
@@ -67,7 +79,8 @@ The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**,
 
 ## Docs & Community
 
-- **Docs / Showcase / Playbook** → [modelstudioai.github.io](https://modelstudioai.github.io) — guides, community case Showcase, capability playbook, FAQ, and video tutorials.
+- **Docs / Playbook / Guides** → [modelstudioai.github.io](https://modelstudioai.github.io) — guides, capability playbook, FAQ, and video tutorials.
+- **Community Showcase** → [modelstudioai.github.io/showcase/](https://modelstudioai.github.io/showcase/) — real-world cases built by community developers with the CLI + Skills, ranging from cinematic short films to multimodal Agent workflows.
 - **Join the Bailian Open-Source Developer Program** → [bailian.console.aliyun.com/opensource](http://bailian.console.aliyun.com/opensource) — get a certified badge, community perks, and priority collaboration opportunities.
 
 ## Capabilities
@@ -76,7 +89,9 @@ The CLI auto-registers as a skill in **Claude Code**, **Qwen Code**, **Cursor**,
 |:-----------|:--------|:----------|
 | Image Generation | "Generate a tech-style banner" | E-commerce, marketing |
 | Image Editing | "Design product mockups from this IP character" | Product design |
-| Video Generation | "Turn this image into a 3s product demo" | Short-form video, ads |
+| Video Generation | "Turn this image into a 5s product demo with HappyHorse 1.1" | Short-form video, ads |
+| Speech (TTS / ASR) | "Read this article in a natural voice" / "Transcribe this meeting recording" | Podcasts, accessibility, meeting notes |
+| Live Translation | "Translate this English speech into Chinese in real time" | Cross-border streaming, conferences, education |
 | Document Parsing | "Extract payment terms from this contract" | Contract review |
 | Code Generation | "Write a Python script to batch-process Excel" | Automation |
 | Data Analysis | "Analyze this sales data and identify growth drivers" | Business analytics |
@@ -90,15 +105,33 @@ Model Studio AI 是[阿里云百炼](https://bailian.console.aliyun.com/cli?sour
 
 ### 快速开始
 
+选一种适合你环境的安装方式：
+
 ```bash
-# 安装阿里云百炼 CLI（需要 Node.js 18+）
+# npm 安装（需要 Node.js 18.17+）
 npm install -g bailian-cli
 
-# 配置 API Key（前往 https://bailian.console.aliyun.com/cn-beijing/?source_channel=key_github&tab=app#/api-key 获取）
+# macOS / Linux 一键脚本（无需 Node.js）
+curl -fsSL https://bailian.aliyun.com/cli/install.sh | bash
+
+# Windows 一键脚本（无需 Node.js）
+irm https://bailian.aliyun.com/cli/install.ps1 | iex
+```
+
+配置 API Key（前往 [bailian.console.aliyun.com/…/api-key](https://bailian.console.aliyun.com/cn-beijing/?source_channel=key_github&tab=app#/api-key) 获取）：
+
+```bash
 bl auth login --api-key YOUR_API_KEY
 ```
 
-安装后自动向 Claude Code / Qwen Code / Cursor 等 AI 编程助手注册 Skill，无需手动配置。
+安装后自动向 Claude Code / Qwen Code / Cursor / Cline / Windsurf 等 MCP 兼容客户端注册 Skill，无需手动配置。
+
+```
+> 生成一张科技风的产品展示图，纯白背景
+> 用 HappyHorse 1.1 把这张海报变成 5 秒图生视频
+> 解析这份合同，标出付款条款和终止条款
+> 把这段会议录音转成文字，并实时翻译成英文
+```
 
 ### 核心项目
 
@@ -115,9 +148,24 @@ bl auth login --api-key YOUR_API_KEY
 > 查看全部仓库 → [github.com/orgs/modelstudioai/repositories](https://github.com/orgs/modelstudioai/repositories)
 
 
+### 能力矩阵
+
+| 能力 | 示例指令 | 典型场景 |
+|:-----|:---------|:---------|
+| 图像生成 | 「生成一张科技风的产品展示 Banner」 | 电商、营销 |
+| 图像编辑 | 「基于这个 IP 形象设计产品样机」 | 产品设计 |
+| 视频生成 | 「用 HappyHorse 1.1 把这张图做成 5 秒产品短片」 | 短视频、广告 |
+| 语音（TTS / ASR）| 「用自然语气把这篇文章读出来」/「把这段会议录音转成文字」 | 播客、无障碍、会议纪要 |
+| 实时翻译 | 「把这段英文演讲实时翻译成中文」 | 跨境直播、会议、教学 |
+| 文档解析 | 「解析这份合同，标出付款条款和终止条款」 | 合同审阅 |
+| 代码生成 | 「写一个批量处理 Excel 的 Python 脚本」 | 自动化 |
+| 数据分析 | 「分析这份销售数据，指出增长驱动因素」 | 商业分析 |
+
+
 ### 文档与社区
 
-- **文档 / 案例 Showcase / Playbook** → [modelstudioai.github.io](https://modelstudioai.github.io)——上手教程、社区案例 Showcase、能力 Playbook、FAQ 与视频教程。
+- **文档 / Playbook / 教程** → [modelstudioai.github.io](https://modelstudioai.github.io)——上手教程、能力 Playbook、FAQ 与视频教程。
+- **社区案例 Showcase** → [modelstudioai.github.io/showcase/](https://modelstudioai.github.io/showcase/)——社区开发者用 CLI + Skills 做出来的真实案例，涵盖影视短片、多模态 Agent 工作流等。
 - **加入百炼开源开发者计划** → [bailian.console.aliyun.com/opensource](http://bailian.console.aliyun.com/opensource)——开通认证开发者权益、社区礼品与优先合作机会。
 
 
